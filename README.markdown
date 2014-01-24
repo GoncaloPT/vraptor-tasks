@@ -3,33 +3,7 @@ Tasks
 
 Plug-in library of Quartz job scheduling for vraptor 
 
-Installation 
---------
 
-*	In a Maven project's pom.xml file:
-
-```xml 
- <repositories>
-    <repository>
-        <id>sonatype-oss-public</id>
-        <url>https://oss.sonatype.org/content/groups/public/</url>
-        <releases>
-            <enabled>true</enabled>
-        </releases>
-        <snapshots>
-        	<enabled>true</enabled>
-	    </snapshots>
-    </repository>
-</repositories> 
-
-<dependency>
-  	<groupId>br.com.prixma</groupId>
-  	<artifactId>vraptor-tasks</artifactId>
-  	<version>1.1.0</version>
-</dependency>
-```
-
-*	Or [download](https://oss.sonatype.org/content/groups/public/br/com/prixma/vraptor-tasks/ "Download Link") manually
   
 Defining a Task
 --------   
